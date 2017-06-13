@@ -188,3 +188,57 @@ span{
     cursor: pointer;
     color: white;
 }
+.navg{
+    float: none;
+}
+#f{
+    background-color: ghostwhite;
+    color: deepskyblue;
+    border-bottom-style: none;
+    border-left-style: solid;
+    border-width: 5px;
+}
+#fp{
+    background-color: ghostwhite;
+}
+.navg:hover{
+    background-color:ghostwhite;
+    color:deepskyblue;
+    border-bottom-style: none;
+    border-left-style: solid;
+    border-width: 4px;
+}
+.navg:active{
+    background-color:ghostwhite;
+    color: deepskyblue;
+    border-bottom-style: none;
+    border-left-style: solid;
+    border-width: 4px;
+}
+#bodr {
+    position: relative;
+    float: right;
+    margin-right: 20px;
+    left: 0;
+    bottom: 0;
+    height: 38px;
+    width: 34px;
+    top: 20px;
+    display: block;
+    border-style: solid;
+    border-color: lightgrey;
+    background-color: white;
+    cursor: pointer;
+}
+.boder {
+    position: relative;
+    margin-top: 4px;
+    margin-left: 4px;
+    display: block;
+    width: 22px;
+    height: 2px;
+    float: left;
+    border-radius: 1px;
+    box-sizing: border-box;
+    background-color: #888888;
+}

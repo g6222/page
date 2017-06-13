@@ -46,12 +46,18 @@ body{
     border-color: #eae9ed;
     background-color: white;
     margin: 0 auto;
+    box-shadow: 2px -2px 2px rgba(69, 69, 69, 0.83) inset;
+}
+.highlight{
+    color: #4bf8ff;
+    background-color: #eae9ed;
+    border-bottom: 5px solid;
+    border-color: #29b5ff;
 }
 .navigationbar {
     color: black;
-    line-height: 80px;
+    line-height: 70px;
     font-size:18px;
-    text-decoration:blink;
     cursor: pointer;
     padding: 0 15px;
     display: inline-block;
@@ -120,7 +126,7 @@ span{
     width: 300px;
     height: auto;
     display: inline-block;
-    padding-left: 20px;
+    padding-left: 10px;
 }
 .list_font{
     font-size: 20px;
@@ -141,11 +147,6 @@ span{
 }
 .bottom_list h2{
     color: #29b5ff;
-}
-#back-to-top{
-    width: 38px;
-    height: 38px;
-    float: right;
 }
 .tupian{
     float: left;
@@ -168,4 +169,16 @@ span{
     color: white;
     cursor: pointer;
     display: inline-block;
+}
+.back-to-top{
+    position:fixed;
+    right:20px;
+    bottom: 10px;
+    cursor: pointer;
+}
+.yy{
+    position: fixed;
+    left: 50px;
+    bottom: 50px;
+    z-index: 1000;
 }

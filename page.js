@@ -6,11 +6,11 @@ $(function () {
         if (documt.scrollTop()>=45){
             nav.css('position','fixed')
             nav.css('top','0');
-            nav.css('width','1905')
+            nav.css('width','1905%')
         }else{
             nav.css('position','relative')
             nav.removeClass('top')
-            nav.removeClass('width','1355')
+            nav.css('width','1355','margin','0 auto')
          }
     })
 })

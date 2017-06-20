@@ -2,7 +2,7 @@ $(document).ready(function() {
     $("#back-to-top").hide();
     $(function() {
       $(window).scroll(function() {
-        if ($(window).scrollTop() > 500) {
+        if ($(window).scrollTop() > 160) {
           $("#back-to-top").fadeIn(500);
         } else {
           $("#back-to-top").fadeOut(500);
@@ -12,8 +12,7 @@ $(document).ready(function() {
         $('body,html').animate({
           scrollTop: 0
         },
-        1000);
-        return false;
+        500);
       });
     });
   });

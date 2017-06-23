@@ -21,50 +21,47 @@
       ]
     }
   ],
-  "heading":[
-  {
-    "title": "OUR BEST PROJECTS"
-  }
-],
-  "list": [
+  "heading": [
     {
-      "text": [
-        "Fauibus Lacini",
-        "Malesua Socsibh",
-        "Consquat Admoles",
-        "Pulvinar Osuehicu",
-        "Tincidunt Sollicitudin",
-        "Maecenas Rhonquis"
+      "title": "OUR BEST PROJECTS"
+    }
+  ],
+  "image_text":[
+    "Fauibus Lacini",
+    "Malesua Socsibh",
+    "Consquat Admoles",
+    "Pulvinar Osuehicu",
+    "Tincidunt Sollicitudin",
+    "Maecenas Rhonquis"
+],
+  "page_text":[
+    "WE ARE INNOVATIVE, FLEXIBLE AND RESOURCEFUL FOR HELPING YOUR BUSINESS REACH THE ZENITH"
+  ],
+  "titale":[
+    "RECENT PROJECTS"
+  ],
+  "content":[
+    {
+      "content_t": [
+        "Quis eros mattis varius aenean posuere laoreet curabitur accumsan",
+        "Consectetuer consectetuer condimentum sociosqu quis ridiculus dui ac tempu",
+        "Lectus pharetra. Dis nascetur. Arcu amet donec nisl euismod, quis eget malesuada",
+        "Ultrices etiam lacinia convallis libero dictumst tes pede congue lorem"
+      ]
+    },
+    {
+      "text_content":[
+        "Egestas luctus turpis litora felis vestibulum accumsan dictumst. Ligula ligula neque risus consequat dictum potenti penatibus a praesent viverra ad. Tortor condimentum ipsum pulvinar blandit imperdiet tortor aenean. Aliquet justo nulla in senectus, aliquam rhoncus Curae; magnis feugiat porta velit fames in curae; magna."
       ]
     }
   ],
-  "rubric": [
-    {
-      "title": "WE ARE INNOVATIVE, FLEXIBLE AND RESOURCEFUL FOR HELPING YOUR BUSINESS REACH THE ZENITH"
-    },
-    {
-      "text": [
-        {
-          "title": "Quis eros mattis varius aenean posuere laoreet curabitur accumsan",
-          "text": "Egestas luctus turpis litora felis vestibulum accumsan dictumst. Ligula ligula neque risus consequat dictum potenti penatibus a praesent viverra ad. Tortor condimentum ipsum pulvinar blandit imperdiet tortor aenean. Aliquet justonulla in senectus, aliquam rhoncus Curae; magnis feugiat porta velit fames in curae; magna."
-        },
-        {
-          "title": "Consectetuer consectetuer condimentum sociosqu quis ridiculus dui ac tempu",
-          "text": "Egestas luctus turpis litora felis vestibulum accumsan dictumst. Ligula ligula neque risus consequat dictum potenti penatibus a praesent viverra ad. Tortor condimentum ipsum pulvinar blandit imperdiet tortor aenean. Aliquet justo nulla in senectus, aliquam rhoncus Curae; magnis feugiat porta velit fames in curae; magna."
-        },
-        {
-          "title": "Lectus pharetra. Dis nascetur. Arcu amet donec nisl euismod, quis eget malesuada",
-          "text": "Egestas luctus turpis litora felis vestibulum accumsan dictumst. Ligula ligula neque risus consequat dictum potenti penatibus a praesent viverra ad. Tortor condimentum ipsum pulvinar blandit imperdiet tortor aenean. Aliquet justo nulla in senectus, aliquam rhoncus Curae; magnis feugiat porta velit fames in curae; magna."
-        },
-        {
-          "title": "Ultrices etiam lacinia convallis libero dictumst  tes pede congue lorem",
-          "text": "Egestas luctus turpis litora felis vestibulum accumsan dictumst. Ligula ligula neque risus consequat dictum potenti penatibus a praesent viverra ad. Tortor condimentum ipsum pulvinar blandit imperdiet tortor aenean. Aliquet justo nulla in senectus, aliquam rhoncus Curae; magnis feugiat porta velit fames in curae; magna."
-        }
-      ],
-
-  "more_link": [
-    {"title":"NAVIGATION","link":["Home","Firm Profile","Services","Events","Contact"]},
-    {"title":"SERVICES","link":["Client Searvices ","Economic Consulting","Strategic Communications","Technology Consulting","Executive search "]},
-    {"title":"ARCHIVES","link":["July 2014","Sep 2014","Dec 2014","March 2015","June 2015"]},
-    {"title":"RECENT POSTS","link":["Arenean Nonummy","Hendrerit Mauselntes","Ulusm Duifusceras","Vitaeneque Turpisin","Praesent Pulvinar "]}
+  "head":[
+    "NAVIGATION",
+    "SERVICES",
+    "ARCHIVES",
+    "RECENT POSTS"
+  ],
+  "bottom_content":[
+    ""
   ]
+}

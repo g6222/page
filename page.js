@@ -7,13 +7,13 @@ $(function () {
         if (documt.scrollTop()>=45){
             nav.css('position','fixed')
             nav.css('top','0')
-            nav.css('width','1905')
-            mar.css("margin-left","40%")
+            nav.css('width','100%')
+            mar.css("margin-left","20%")
         }else{
             nav.css('position','relative')
             nav.removeClass('top')
             nav.css('width','80%','margin','0 auto')
-            mar.css("margin-left","30%")
+            mar.css("margin-left","10%")
          }
     })
 })

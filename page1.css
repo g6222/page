@@ -45,7 +45,7 @@
     }
     #nav_base{
     position: relative;
-    margin: 0;
+    margin: 0 auto;
     min-height: 80px;
     height: 80px;
     width: auto;
@@ -65,7 +65,7 @@
     width: auto;
     height: auto;
     float: right;
-    margin: 0;
+    margin: 0 auto;
     /*display: block ;*/
 /*!important;*/
 }
@@ -264,7 +264,7 @@
     }
 
     .rubric {
-        width: auto;
+        width: 90%;
         height: auto;
         color: white;
         background-color: rgba(1, 156, 204, 1);

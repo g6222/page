@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<style type="text/css">
+#tab { overflow:hidden; width:400px; height:250px; position:relative; margin: 0 auto;}
+#tab>img:not(:first-child){ display:none; }
+
+</style>
+<script>
+    window.onload = function(){
+
+        var images = document.getElementsByTagName('img');
+        var pos = 0;
+        var len = images.length;
+
+        setInterval(function(){
+
+            images[pos].style.display = 'none';
+            pos = ++pos == len ? 0 : pos;
+            images[pos].style.display = 'inline';
+
+        },1000);
+
+    };
+</script>
+
+</head>
+
+<body>
+<div id="tab">
+    <img src="101.jpg" width="400" height="250"/>
+    <img src="100.jpg" width="400" height="250"/>
+    <img src="99.jpg" width="400" height="250"/>
+</div>
+</body>

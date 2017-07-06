@@ -1,0 +1,1 @@
+/home/gao/page/哦.js

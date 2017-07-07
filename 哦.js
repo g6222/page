@@ -4,12 +4,12 @@ function createCode()
     code = "";
     var codeLength = 4;
     var checkCode = document.getElementById("checkCode");
-    var codeChars = new Array(0, 1, 2, 3, 4, 5, 6, 7, 8, 9,
+    var codeChars = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9,
         'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z',
-        'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'); //所有候选组成验证码的字符，当然也可以用中文的
+        'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
     for(var i = 0; i < codeLength; i++)
     {
-        var charNum = Math.floor(Math.random() * 52);
+        var charNum = ~~(Math.random() * 52);
         code += codeChars[charNum];
     }
     if(checkCode)
@@ -20,8 +20,8 @@ function createCode()
 }
 function sub() {
     userName = $('#userName').val();
-    password = $('input[type="password"]')[0].value;
-    password2 = $('input[type="password"]')[1].value;
+    password = $('#password').val();
+    password2 = $('#password2').val();
     name = $('#6').val();
     Verification = $('#checkCode').text()
     code = $('#code').val()
@@ -62,26 +62,4 @@ function sub() {
     }
     alert('注册成功');
     setTimeout("location.href='http://www.baidu.com';",1000);
-}
-var time = "";
-var index = 1;
-$(function () {
-    showimg(index);
-    //鼠标移入移出
-    $(".imgnum span").hover(function () {
-        clearTimeout(time);
-        var icon=$(this).text();
-        $(".imgnum span").removeClass("onselect").eq(icon-1).addClass("onselect");
-        $("#banner_img li").hide().stop(true,true).eq(icon-1).fadeIn("slow");
-    }, function () {
-        index=$(this).text()> 5 ? 1 :parseInt($(this).text())+1;
-        time = setTimeout("showimg(" + index + ")", 3000);
-    });
-});
-function showimg(num) {
-    index = num;
-    $(".imgnum span").removeClass("onselect").eq(index-1).addClass("onselect");
-    $("#banner_img li").hide().stop(true,true).eq(index-1).fadeIn("slow");
-    index = index + 1 > 6 ? 1 : index + 1;
-    time = setTimeout("showimg(" + index + ")", 3000);
 }

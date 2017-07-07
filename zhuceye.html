@@ -10,38 +10,19 @@
 <body onload="createCode()">
 <div class="block">
     用户名:&nbsp&nbsp&nbsp&nbsp&nbsp<input id="userName">
-    <br>密码:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input  type="password">
-    <br>确认密码:&nbsp<input type="password">
+    <br>密码:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input  type="password" id="password">
+    <br>确认密码:&nbsp<input type="password" id="password2">
     <br>验证码：&nbsp&nbsp<input id="code">
-    <div class="code" id="checkCode" onclick="createCode()"></div>
-    <div class="s">点击验证码换一张</div>
+    <div class="code" id="checkCode"></div>
+    <button class="yanzheng" onclick="createCode()">看不清换一张分大小写</button>
     <div ng-app="" ng-init="firstName=''">
         <p>姓名:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" ng-model="firstName" id="6"></p>
         <p>名字:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp{{  firstName }}</p>
         <button class="zhuce" onclick="sub()">注册</button>
     </div>
 </div>
-<!--<div class="imgbox">-->
-<!--<ul id="banner_img">-->
-<!--<li><img src="77.jpg" width="300"></li>-->
-<!--<li><img src="76.jpg" width="300"></li>-->
-<!--<li><img src="99.jpg" width="300"></li>-->
-<!--<li><img src="100.jpg" width="300"></li>-->
-<!--<li><img src="101.jpg" width="300"></li>-->
-<!--<li><img src="menulogo.png"width="300" height="200"></li>-->
-<!--</ul>-->
-<!--<div class="clear"></div>-->
-<!--<div class="imgnum">-->
-<!--<span class="onselect">1</span>-->
-<!--<span>2</span>-->
-<!--<span>3</span>-->
-<!--<span>4</span>-->
-<!--<span>5</span>-->
-<!--<span>6</span>-->
-<!--</div>-->
-<!--</div>-->
-<!--<video src="Nathan%20Haines%20-%20Ubuntu%20Through%20The%20Years.ogg"width="500" height="500" controls="controls">-->
-<!--your browser does not support the video tag-->
-<!--</video>-->
+<video src="Nathan%20Haines%20-%20Ubuntu%20Through%20The%20Years.ogg"width="500" height="500" controls="controls">
+    your browser does not support the video tag
+</video>
 </body>
 </html>

@@ -1,0 +1,71 @@
+body{
+    text-align: center;
+    margin: 0;
+    /*background:#fff url("100.jpg") no-repeat left top;*/
+    /*background-size:100%;*/
+}
+.title{
+    color: blue;
+    font-size: 80px;
+    margin: 0 auto;
+    padding-top: 70px;
+}
+.ziti{
+    font-size: 18px;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: block;
+    }
+.anniu{
+    color: #29b5ff;
+    margin: 20px 0;
+    display: inline-block;
+    font-size: 18px;
+    margin-right: 20px;
+}
+.anniu:hover{
+    cursor: pointer;
+}
+.xieyi:hover{
+    cursor: pointer;
+}
+.zhuce-anniu{
+    color: white;
+    background-color: #29b5ff;
+    width: 300px;
+    height: 40px;
+    box-shadow: none;
+    border: none;
+    margin-top: 20px;
+}
+.zhuce-anniu:hover{
+    cursor: pointer;
+}
+.ziti-1{
+    font-size: 12px;
+    margin-top: 20px;
+}
+.xieyi{
+    color: #29b5ff;
+}
+.k{
+    height: 35px;
+    padding: 3px 3px;
+}
+.z{
+    margin: 0 0;
+    padding-left: 0;
+}
+.xiaz{
+    color: #29b5ff;
+    background-color: white;
+    width: 300px;
+    height: 40px;
+    box-shadow: none;
+    border: 1px solid;
+    margin-top: 45px;;
+    border-color: #29b5ff;
+}
+.xiaz:hover{
+    cursor: pointer;
+}
